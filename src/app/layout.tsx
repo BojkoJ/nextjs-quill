@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Providers from '@/components/Providers'
+import { Toaster } from "@/components/ui/toaster"
 
 import "react-loading-skeleton/dist/skeleton.css"
 
@@ -26,6 +27,7 @@ export default function RootLayout({
           'min-h-screen font-sans antialiased grainy',
           inter.className
         )}>
+          <Toaster />
           <Navbar />
           {children}
         </body>
