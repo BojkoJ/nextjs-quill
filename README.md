@@ -7,7 +7,7 @@
       <li>Next.js 13</li>
       <li>React</li>
       <li>Prisma</li>
-      <li>tRPC for type-safe APIk</li>
+      <li>tRPC for type-safe API</li>
       <li>Tailwind</li>
       <li>OpenAI API for communication of user with chatbot about uploaded pdf document. (currently waiting for funding)</li>
       <li>Pinecone vector database (currently waiting for funding)</li>
